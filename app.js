@@ -3,7 +3,7 @@ let gender;
 let array = [];
 
 
-function myfuction () {
+function genderfunction() {
 
 while (gender != "male" || gender != "female") {
     gender = prompt("What's you'r gender? (Male or Female)");
@@ -22,6 +22,9 @@ while (gender != "male" || gender != "female") {
 
     }
 }
+}
+
+genderfunction();
 
 let type = prompt("Do you want a cold or hot drink?");
 array.push(type);
@@ -35,6 +38,5 @@ console.log(name0 + " ordered a " + type + " " + namedrink);
 for (let i = 0; i < array.length; i++) {
     console.log(array[i]);
 }
-}
 
-myfuction ();
+
