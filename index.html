@@ -12,6 +12,24 @@
 
     <script src="app.js"></script>
 
+
+    <form id="form">
+        <label for="username">Enter your name:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="age">Enter your age:</label><br>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="hotCheckbox">Do you want the drink hot?</label>
+        <input type="checkbox" id="hotCheckbox" class="checkbox" name="hotCheckbox">
+        <label for="coldCheckbox">Do you want the drink cold?</label>
+        <input type="checkbox" id="coldCheckbox" class="checkbox" name="coldCheckbox"><br><br>
+
+        <label for="type">What is the name of the drink you want?:</label><br>
+        <input type="text" id="type" name="type"><br><br>
+        
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
 </body>
 
 </html>
